@@ -3,12 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="About Nagmat — backend engineer with experience at JPMorgan Chase, national-lab research, and large-scale production systems."
+    />
     <title>About | Nagmat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <nav class="nav">
+      <nav class="nav" aria-label="Primary">
         <a class="brand" href="index.html">Nagmat</a>
         <ul>
           <li><a href="about.html" aria-current="page">About</a></li>
@@ -18,21 +28,76 @@
       </nav>
     </header>
 
-    <main class="container content">
-      <h1>About Me</h1>
-      <p>
-        I am a software engineer focused on building maintainable products from idea to
-        production. I care about performance, accessibility, and a smooth developer
-        experience.
-      </p>
-      <p>
-        My toolkit includes JavaScript/TypeScript, modern frontend frameworks, REST APIs,
-        testing, and cloud deployment workflows.
-      </p>
-    </main>
+    <div class="page">
+      <aside class="spine" aria-hidden="true">
+        <span class="spine-label">Path</span>
+      </aside>
+
+      <main class="container prose">
+        <p class="eyebrow">About</p>
+        <h1 class="page-title">Built for production systems</h1>
+        <p class="lede">
+          Software engineer with ~9 years building backend services and
+          data-intensive systems.
+        </p>
+
+        <section class="section reveal">
+          <p class="section-kicker">Current</p>
+          <h2>JPMorgan Chase Corporate Technology</h2>
+          <p>
+            Working on Java / Spring Boot microservices, REST APIs, PostgreSQL,
+            and CI/CD — the day-to-day craft of reliable backend services in a
+            regulated enterprise environment.
+          </p>
+        </section>
+
+        <section class="section reveal">
+          <p class="section-kicker">Research</p>
+          <h2>Networking, HPC, and national-lab ML</h2>
+          <p>
+            Before industry, programmable-networking and HPC research (P4 /
+            Intel Tofino) at UT Arlington and the University of Nevada, Reno —
+            plus an ML anomaly-detection internship at Lawrence Berkeley
+            National Lab (ESnet).
+          </p>
+        </section>
+
+        <section class="section reveal">
+          <p class="section-kicker">Scale</p>
+          <h2>National systems that stay online</h2>
+          <p>
+            Eight years building production systems in Ashgabat, Turkmenistan —
+            including a national passport system serving 6.4M+ records that is
+            still in production today.
+          </p>
+        </section>
+
+        <section class="section reveal">
+          <p class="section-kicker">Credentials</p>
+          <h2>Education &amp; certification</h2>
+          <p>
+            <strong>MS Computer Science &amp; Engineering</strong>, Seoul
+            National University.
+          </p>
+          <p>
+            <strong>AWS Certified Cloud Practitioner</strong> (2026).
+          </p>
+        </section>
+
+        <div class="cta-row reveal">
+          <a class="button" href="projects.html">See selected work</a>
+          <a class="button button-ghost" href="assets/resume.pdf"
+            >Download résumé</a
+          >
+        </div>
+      </main>
+    </div>
 
     <footer class="site-footer">
-      <small>© <span id="year"></span> Nagmat.</small>
+      <div class="inner">
+        <small>© <span id="year"></span> Nagmat</small>
+        <small><a href="contact.html">Get in touch</a></small>
+      </div>
     </footer>
 
     <script src="scripts.js"></script>

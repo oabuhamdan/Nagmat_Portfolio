@@ -1,5 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Profile illustration">
-  <rect width="200" height="200" rx="26" fill="#dbeafe"/>
-  <circle cx="100" cy="78" r="34" fill="#93c5fd"/>
-  <path d="M44 170c10-30 32-45 56-45s46 15 56 45" fill="#93c5fd"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" role="img" aria-label="Profile placeholder">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8EEF3"/>
+      <stop offset="100%" stop-color="#D4D8E0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="480" fill="url(#g)"/>
+  <circle cx="200" cy="175" r="78" fill="#1F4B6E" opacity="0.18"/>
+  <circle cx="200" cy="175" r="64" fill="#1F4B6E" opacity="0.35"/>
+  <path d="M80 430c24-92 78-138 120-138s96 46 120 138" fill="#1F4B6E" opacity="0.35"/>
+  <line x1="28" y1="28" x2="28" y2="452" stroke="#1F4B6E" stroke-width="2" opacity="0.35"/>
+  <text x="40" y="48" font-family="IBM Plex Mono, monospace" font-size="14" fill="#1F4B6E" letter-spacing="2">PROFILE</text>
 </svg>

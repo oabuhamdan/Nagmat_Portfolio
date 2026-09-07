@@ -3,12 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Nagmat — email, LinkedIn, and résumé for backend and distributed systems roles in the Bay Area."
+    />
     <title>Contact | Nagmat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <nav class="nav">
+      <nav class="nav" aria-label="Primary">
         <a class="brand" href="index.html">Nagmat</a>
         <ul>
           <li><a href="about.html">About</a></li>
@@ -18,18 +28,51 @@
       </nav>
     </header>
 
-    <main class="container content">
-      <h1>Contact</h1>
-      <p>You can reach me through any of the platforms below:</p>
-      <ul class="contact-list">
-        <li>Email: <a href="mailto:nagmat@example.com">nagmat@example.com</a></li>
-        <li>GitHub: <a href="https://github.com/oabuhamdan">github.com/oabuhamdan</a></li>
-        <li>LinkedIn: <a href="https://www.linkedin.com">linkedin.com</a></li>
-      </ul>
-    </main>
+    <div class="page">
+      <aside class="spine" aria-hidden="true">
+        <span class="spine-label">Reach</span>
+      </aside>
+
+      <main class="container">
+        <p class="eyebrow">Contact</p>
+        <h1 class="page-title">Let’s talk</h1>
+        <p class="lede">
+          Best ways to reach me are email or LinkedIn. Open to backend /
+          distributed systems / platform engineering roles in the Bay Area.
+        </p>
+
+        <div class="contact-block reveal">
+          <div class="contact-row">
+            <span>Email</span>
+            <a href="mailto:nagmat1@icloud.com">nagmat1@icloud.com</a>
+          </div>
+          <div class="contact-row">
+            <span>LinkedIn</span>
+            <a
+              href="https://www.linkedin.com/in/nagmatn"
+              rel="noopener noreferrer"
+              target="_blank"
+              >linkedin.com/in/nagmatn</a
+            >
+          </div>
+          <div class="contact-row">
+            <span>Résumé</span>
+            <a href="assets/resume.pdf">Download PDF</a>
+          </div>
+        </div>
+
+        <div class="cta-row spaced reveal">
+          <a class="button" href="mailto:nagmat1@icloud.com">Send an email</a>
+          <a class="button button-ghost" href="projects.html">View work</a>
+        </div>
+      </main>
+    </div>
 
     <footer class="site-footer">
-      <small>© <span id="year"></span> Nagmat.</small>
+      <div class="inner">
+        <small>© <span id="year"></span> Nagmat</small>
+        <small><a href="index.html">Back to home</a></small>
+      </div>
     </footer>
 
     <script src="scripts.js"></script>

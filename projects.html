@@ -3,12 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Selected work by Nagmat — JPMorgan Chase microservices, national passport system, ESnet anomaly detection, and P4/Tofino research."
+    />
     <title>Projects | Nagmat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <nav class="nav">
+      <nav class="nav" aria-label="Primary">
         <a class="brand" href="index.html">Nagmat</a>
         <ul>
           <li><a href="about.html">About</a></li>
@@ -18,26 +28,98 @@
       </nav>
     </header>
 
-    <main class="container content">
-      <h1>Selected Projects</h1>
-      <div class="cards">
-        <article class="card">
-          <h2>Portfolio Website</h2>
-          <p>Multi-page static website prepared for GitHub Pages deployment.</p>
+    <div class="page">
+      <aside class="spine" aria-hidden="true">
+        <span class="spine-label">Work</span>
+      </aside>
+
+      <main class="container wide">
+        <p class="eyebrow">Projects</p>
+        <h1 class="page-title">Selected case studies</h1>
+        <p class="lede">
+          Career work framed for hiring — production backends, national-scale
+          data systems, and research that ships.
+        </p>
+
+        <article class="case reveal">
+          <p class="case-meta">Enterprise · Current</p>
+          <h2>Backend microservices at JPMorgan Chase</h2>
+          <p>
+            Building Java / Spring Boot microservices and REST APIs inside
+            Corporate Technology — with PostgreSQL, CI/CD, contract testing
+            (Pactflow), and quality gates (SonarQube) as part of the delivery
+            loop.
+          </p>
+          <ul class="tech-strip" aria-label="Technologies used">
+            <li>Java</li>
+            <li>Spring Boot</li>
+            <li>REST APIs</li>
+            <li>PostgreSQL</li>
+            <li>Pactflow</li>
+            <li>SonarQube</li>
+            <li>CI/CD</li>
+          </ul>
         </article>
-        <article class="card">
-          <h2>Task Tracker API</h2>
-          <p>RESTful backend with authentication, validation, and test coverage.</p>
+
+        <article class="case reveal">
+          <p class="case-meta">Scale · Longevity</p>
+          <h2>National passport system</h2>
+          <p>
+            Part of eight years shipping production systems in Ashgabat,
+            Turkmenistan — including a national passport system serving 6.4M+
+            records that remains in production today.
+          </p>
+          <ul class="tech-strip" aria-label="Technologies used">
+            <li>Production systems</li>
+            <li>Large-scale data</li>
+            <li>Long-lived services</li>
+          </ul>
         </article>
-      </div>
-      <p>
-        Download a sample resume file hosted as a static asset:
-        <a href="assets/resume.txt">resume.txt</a>
-      </p>
-    </main>
+
+        <article class="case reveal">
+          <p class="case-meta">Research · National lab</p>
+          <h2>Anomaly detection at LBNL ESnet</h2>
+          <p>
+            ML anomaly-detection internship at Lawrence Berkeley National Lab
+            (ESnet) — applying Python data pipelines to network telemetry in a
+            research environment that operates at national-lab rigor.
+          </p>
+          <ul class="tech-strip" aria-label="Technologies used">
+            <li>Python</li>
+            <li>ML</li>
+            <li>Network telemetry</li>
+            <li>Data pipelines</li>
+          </ul>
+        </article>
+
+        <article class="case reveal">
+          <p class="case-meta">Research · Published</p>
+          <h2>Programmable networking on Intel Tofino</h2>
+          <p>
+            Programmable-networking and HPC research at UT Arlington and the
+            University of Nevada, Reno — P4 on Intel Tofino, in-network caching,
+            and published research work.
+          </p>
+          <ul class="tech-strip" aria-label="Technologies used">
+            <li>P4</li>
+            <li>Intel Tofino</li>
+            <li>In-network caching</li>
+            <li>HPC</li>
+          </ul>
+        </article>
+
+        <div class="cta-row spaced reveal">
+          <a class="button" href="assets/resume.pdf">Download résumé</a>
+          <a class="button button-ghost" href="contact.html">Contact</a>
+        </div>
+      </main>
+    </div>
 
     <footer class="site-footer">
-      <small>© <span id="year"></span> Nagmat.</small>
+      <div class="inner">
+        <small>© <span id="year"></span> Nagmat</small>
+        <small><a href="contact.html">Get in touch</a></small>
+      </div>
     </footer>
 
     <script src="scripts.js"></script>

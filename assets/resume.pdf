@@ -1,0 +1,91 @@
+%PDF-1.4
+1 0 obj<< /Type /Catalog /Pages 2 0 R >>endobj
+2 0 obj<< /Type /Pages /Kids [3 0 R] /Count 1 >>endobj
+3 0 obj<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>endobj
+4 0 obj<< /Length 1934 >>stream
+BT
+/F1 18 Tf
+50 750 Td
+(NAGMAT) Tj
+/F1 10 Tf
+0 -18 Td
+(Software Engineer · Palo Alto, CA) Tj
+0 -14 Td
+(Backend & distributed systems ? Java / Spring Boot, Python, Kubernetes, AWS) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Contact: nagmat1@icloud.com  ·  linkedin.com/in/nagmatn) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(ABOUT) Tj
+0 -14 Td
+(Software engineer with ~9 years of experience building backend services and) Tj
+0 -14 Td
+(data-intensive systems. Currently at JPMorgan Chase Corporate Technology,) Tj
+0 -14 Td
+(working on Java/Spring Boot microservices, REST APIs, PostgreSQL, and CI/CD.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Previously: programmable-networking and HPC research \(P4 / Intel Tofino\) at) Tj
+0 -14 Td
+(UT Arlington and University of Nevada, Reno; ML anomaly-detection internship) Tj
+0 -14 Td
+(at Lawrence Berkeley National Lab \(ESnet\); eight years building production) Tj
+0 -14 Td
+(systems in Ashgabat, Turkmenistan ? including a national passport system) Tj
+0 -14 Td
+(serving 6.4M+ records still in production.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Education: MS Computer Science & Engineering, Seoul National University.) Tj
+0 -14 Td
+(Certification: AWS Certified Cloud Practitioner \(2026\).) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(FOCUS) Tj
+0 -14 Td
+(? Backend services at scale ? Spring Boot, REST APIs, Pactflow, SonarQube) Tj
+0 -14 Td
+(? Infrastructure & cloud ? Docker, Kubernetes/EKS, ECS, EC2/S3, Jenkins) Tj
+0 -14 Td
+(? Programmable networking ? P4 on Intel Tofino, in-network caching) Tj
+0 -14 Td
+(? Data & ML ? anomaly detection on network telemetry, Python pipelines) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(TECH) Tj
+0 -14 Td
+(Java, Spring Boot, Python, PostgreSQL, MySQL, Docker, Kubernetes, AWS,) Tj
+0 -14 Td
+(Linux, Jenkins, Git, P4, Microservices, REST APIs) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(OPEN TO) Tj
+0 -14 Td
+(Backend / distributed systems / platform engineering roles in the Bay Area) Tj
+0 -14 Td
+(\(contract, contract-to-hire, or permanent\).) Tj
+0 -14 Td
+ET
+endstream
+endobj
+5 0 obj<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000056 00000 n 
+0000000111 00000 n 
+0000000235 00000 n 
+0000002219 00000 n 
+trailer<< /Size 6 /Root 1 0 R >>
+startxref
+2287
+%%EOF

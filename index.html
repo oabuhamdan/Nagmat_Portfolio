@@ -3,13 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nagmat — Software engineer in Palo Alto building backend and distributed systems with Java, Spring Boot, Python, Kubernetes, and AWS."
+    />
     <title>Nagmat | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <nav class="nav">
-        <a class="brand" href="index.html">Nagmat</a>
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="index.html" aria-current="page">Nagmat</a>
         <ul>
           <li><a href="about.html">About</a></li>
           <li><a href="projects.html">Projects</a></li>
@@ -18,21 +28,117 @@
       </nav>
     </header>
 
-    <main class="container hero">
-      <img src="assets/profile.svg" alt="Portrait illustration" class="avatar" />
-      <div>
-        <p class="eyebrow">Software Engineer</p>
-        <h1>Hi, I’m Nagmat.</h1>
-        <p>
-          I build reliable, user-focused web applications with clean architecture and
-          practical engineering.
-        </p>
-        <a class="button" href="projects.html">View my work</a>
-      </div>
-    </main>
+    <div class="page">
+      <aside class="spine" aria-hidden="true">
+        <span class="spine-label">Now</span>
+      </aside>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Software Engineer · Palo Alto, CA</p>
+            <h1 class="brand-hero">Nagmat</h1>
+            <p class="lede">
+              Backend &amp; distributed systems — Java / Spring Boot, Python,
+              Kubernetes, AWS.
+            </p>
+            <p class="meta">
+              ~9 years · Currently JPMorgan Chase Corporate Technology
+            </p>
+            <p class="open-line">
+              Open to backend / distributed systems / platform engineering roles
+              in the Bay Area — contract, contract-to-hire, or permanent.
+            </p>
+            <div class="cta-row">
+              <a class="button" href="assets/resume.pdf">Download résumé</a>
+              <a class="button button-ghost" href="mailto:nagmat1@icloud.com"
+                >Email</a
+              >
+              <a
+                class="button button-ghost"
+                href="https://www.linkedin.com/in/nagmatn"
+                rel="noopener noreferrer"
+                target="_blank"
+                >LinkedIn</a
+              >
+              <a class="button button-ghost" href="projects.html">View work</a>
+            </div>
+          </div>
+          <div class="hero-media">
+            <img
+              class="avatar"
+              src="assets/profile.png"
+              alt="Portrait of Nagmat"
+              width="800"
+              height="960"
+            />
+          </div>
+        </section>
+
+        <section class="section reveal">
+          <p class="section-kicker">Focus</p>
+          <h2>What I work on</h2>
+          <ul class="work-list">
+            <li>
+              <strong>Backend at scale</strong>
+              <span
+                >Spring Boot microservices, REST API design, contract testing
+                (Pactflow), code quality gates (SonarQube)</span
+              >
+            </li>
+            <li>
+              <strong>Infra &amp; cloud</strong>
+              <span
+                >Docker, Kubernetes/EKS, ECS, EC2/S3, Jenkins pipelines</span
+              >
+            </li>
+            <li>
+              <strong>Networking</strong>
+              <span
+                >P4 on Intel Tofino, in-network caching, published research</span
+              >
+            </li>
+            <li>
+              <strong>Data &amp; ML</strong>
+              <span
+                >Anomaly detection on network telemetry, Python data
+                pipelines</span
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section class="section reveal">
+          <p class="section-kicker">Stack</p>
+          <h2>Tools I use</h2>
+          <ul class="tech-strip" aria-label="Technologies">
+            <li>Java</li>
+            <li>Spring Boot</li>
+            <li>Python</li>
+            <li>PostgreSQL</li>
+            <li>MySQL</li>
+            <li>Docker</li>
+            <li>Kubernetes</li>
+            <li>AWS</li>
+            <li>Linux</li>
+            <li>Jenkins</li>
+            <li>Git</li>
+            <li>P4</li>
+            <li>Microservices</li>
+            <li>REST APIs</li>
+          </ul>
+        </section>
+      </main>
+    </div>
 
     <footer class="site-footer">
-      <small>© <span id="year"></span> Nagmat. Built for GitHub Pages.</small>
+      <div class="inner">
+        <small>© <span id="year"></span> Nagmat</small>
+        <small
+          ><a href="contact.html">Get in touch</a> · Built for GitHub
+          Pages</small
+        >
+      </div>
     </footer>
 
     <script src="scripts.js"></script>
