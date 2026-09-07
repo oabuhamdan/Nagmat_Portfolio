@@ -169,7 +169,7 @@ a:hover {
   display: grid;
   grid-template-columns: minmax(0, 1.15fr) minmax(12rem, 0.75fr);
   gap: 2.5rem;
-  align-items: end;
+  align-items: stretch;
   padding: 1rem 0 2.5rem;
   border-bottom: 1px solid var(--rule);
 }
@@ -263,7 +263,10 @@ a:hover {
 .hero-media {
   position: relative;
   justify-self: end;
+  align-self: stretch;
   width: min(100%, 20rem);
+  height: 100%;
+  min-height: 0;
 }
 
 .hero-media::before {
@@ -278,7 +281,7 @@ a:hover {
   position: relative;
   z-index: 1;
   width: 100%;
-  aspect-ratio: 5 / 6;
+  height: 100%;
   object-fit: cover;
   background: var(--soft);
   border: 1px solid var(--rule);
@@ -509,7 +512,14 @@ h3 {
   .hero-media {
     justify-self: start;
     width: min(100%, 18rem);
+    height: auto;
+    aspect-ratio: 5 / 6;
+    max-height: 22rem;
     order: -1;
+  }
+
+  .avatar {
+    height: 100%;
   }
 
   .work-list li,
