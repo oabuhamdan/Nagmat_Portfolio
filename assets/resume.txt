@@ -1,0 +1,9 @@
+Nagmat - Software Engineer
+
+Skills
+- JavaScript / TypeScript
+- Frontend architecture
+- API design and integration
+- Testing and CI workflows
+
+This is a static file served directly by the portfolio website.
